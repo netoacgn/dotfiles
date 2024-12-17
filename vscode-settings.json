@@ -64,10 +64,6 @@
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
   "editor.renderLineHighlight": "gutter",
-  "editor.rulers": [
-    80,
-    120
-  ],
   "editor.parameterHints.enabled": false,
   "editor.semanticHighlighting.enabled": true,
   "editor.bracketPairColorization.enabled": true,

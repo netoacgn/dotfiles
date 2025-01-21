@@ -24,7 +24,6 @@
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "files.autoSave": "afterDelay",
-
   // "diffEditor.ignoreTrimWhitespace": false,
   "editor.minimap.enabled": false,
   "[python]": {
@@ -47,14 +46,12 @@
   "console-ninja.featureSet": "Community",
   "prisma.showPrismaDataPlatformNotification": false,
   "console-ninja.showWhatsNew": true,
-
   // Workbench
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "One Dark Pro Darker",
   "workbench.editor.labelFormat": "short",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.editor.untitled.hint": "hidden",
-  
   // Editor settings
   "tabnine.experimentalAutoImports": true,
   "editor.lineHeight": 20,
@@ -67,9 +64,9 @@
   "editor.semanticHighlighting.enabled": true,
   "editor.bracketPairColorization.enabled": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
+    "source.fixAll": "explicit"
   },
-
+  "eslint.nodePath": "C:\/Program Files\\nodejs",
   // VSCode stuff
   "breadcrumbs.enabled": true,
   "explorer.compactFolders": false,
@@ -77,7 +74,6 @@
   "explorer.confirmDelete": false,
   "javascript.updateImportsOnFileMove.enabled": "never",
   "typescript.updateImportsOnFileMove.enabled": "never",
-
   // Emmet
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
@@ -85,7 +81,6 @@
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
-
   // Extensions
   "extensions.ignoreRecommendations": true,
   "diffEditor.ignoreTrimWhitespace": false,
@@ -123,4 +118,5 @@
   "liveServer.settings.donotShowInfoMsg": true,
   "git.confirmSync": false,
   "editor.inlineSuggest.enabled": true,
+  "eslint.codeActionsOnSave.rules": null,
 }
